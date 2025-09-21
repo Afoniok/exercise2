@@ -16,7 +16,7 @@ body {
 }
 
 .navbar {
-  background-color: #DAD7CD; /* warm light beige-green */
+  background-color: #DAD7CD; 
   overflow: hidden;
 }
 
@@ -25,13 +25,13 @@ body {
   display: block;
   padding: 14px 18px;
   text-decoration: none;
-  color: #2d2d2d; /* dark text for readability */
+  color: #2d2d2d; 
   font-weight: 500;
   transition: 0.3s;
 }
 
 .navbar a:hover {
-  background-color: #A3B18A; /* matches header/footer */
+  background-color: #A3B18A; 
   color: #fff;
 }
 .container_tribute {
