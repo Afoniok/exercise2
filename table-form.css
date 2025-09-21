@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #F6F4EB;
+  color: #2d2d2d;
+}
+
+.header {
+  background-color: #A3B18A;
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar {
+  background-color: #DAD7CD; /* warm light beige-green */
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  padding: 14px 18px;
+  text-decoration: none;
+  color: #2d2d2d; /* dark text for readability */
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #A3B18A; /* matches header/footer */
+  color: #fff;
+}
+.container_tribute {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.content_tribute {
+  max-width: 800px;
+  width: 100%;
+}
+
+#grades {
+  color: #344E41;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.styled-table thead th {
+  background-color: #A3B18A;
+  color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.styled-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.styled-table tbody tr:nth-child(even) {
+  background-color: #E9EDC9;
+}
+.styled-table tbody tr:nth-child(odd) {
+  background-color: #F6F4EB;
+}
+.highlight-row {
+  background-color: #CCD5AE !important;
+  font-weight: bold;
+}
+
+.feedback-form {
+  background-color: #E9EDC9;
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.feedback-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.btn {
+  background-color: #344E41;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #588157;
+}
+
+.footer {
+  background-color: #A3B18A;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
